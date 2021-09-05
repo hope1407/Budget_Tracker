@@ -8,6 +8,10 @@
     "start": "node server.js",
     "lite-server": "lite-server"
   },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
