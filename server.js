@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb+srv://hope14507:vdjHc5jzMQT3mWj@cluster0.cuohk.mongodb.net/dbBudget?retryWrites=true&w=majority", {
+mongoose.connect(process.env.MONGO_URI || "mongodb://localhost/dbBudget", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
@@ -29,4 +29,4 @@ app.listen(PORT, () => {
   console.log(`App running on port ${PORT}!`);
 });
 
-//adding comment
+//adding
