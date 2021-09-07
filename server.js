@@ -15,7 +15,7 @@ app.use(express.json());
 
 app.use(express.static("public"));
 
-mongoose.connect("mongodb://localhost/dbBudget", {
+mongoose.connect("mongodb+srv://hope14507:vdjHc5jzMQT3mWj@cluster0.cuohk.mongodb.net/dbBudget?retryWrites=true&w=majority", {
     useNewUrlParser: true,
     useUnifiedTopology: true,
     useCreateIndex: true,
