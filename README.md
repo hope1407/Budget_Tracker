@@ -15,7 +15,7 @@
 
 - [Creator Contact Information](#questions)
 
-![Screenshot](/public/assets/images/appScreenshot.png)
+![Screenshot](/public/images/appScreenshot.png)
 ## Description <a name="description"></a>
 This is a budget app for an on-the-go traveller!  No internet connection?  No problem!  Simply enter in your transactions while you're on the move, then, once you get internet access, your logged buget items will swiftly upload to your database
 ## Installation Instructions <a name="install"></a>
